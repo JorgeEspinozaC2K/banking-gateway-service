@@ -1,0 +1,1366 @@
+2022-04-21 13:45:08.696  INFO 28288 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8090
+2022-04-21 13:45:09.972  INFO 28288 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=banking-gateway-service, profiles=[default], label=null, version=190eac02c39f3a5b4bd2e7cfac2a461ef921e4b8, state=null
+2022-04-21 13:45:09.973  INFO 28288 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/JorgeEspinozaC2K/banking-config-data.git/file:C:\Users\jespcana\AppData\Local\Temp\config-repo-5116069282997236147\banking-gateway-service.yml'}]
+2022-04-21 13:45:09.992  INFO 28288 --- [main] b.g.s.a.BankingGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 13:45:10.474  INFO 28288 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2500d6d4-a6aa-3280-bdb7-f100beccd928
+2022-04-21 13:45:10.520  INFO 28288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 13:45:10.521  INFO 28288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 13:45:10.522  INFO 28288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 13:45:11.526  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-04-21 13:45:11.527  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-04-21 13:45:11.528  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-21 13:45:11.528  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-04-21 13:45:11.528  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-04-21 13:45:11.528  INFO 28288 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-21 13:45:11.717  INFO 28288 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-21 13:45:11.987  WARN 28288 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-21 13:45:12.049  INFO 28288 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-21 13:45:12.095  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-21 13:45:12.100  INFO 28288 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-21 13:45:12.131  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 13:45:12.552  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 13:45:12.556  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-21 13:45:12.571  INFO 28288 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-21 13:45:12.577  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650566712576 with initial instances count: 3
+2022-04-21 13:45:12.578  INFO 28288 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKING-GATEWAY-SERVICE with eureka with status UP
+2022-04-21 13:45:12.579  INFO 28288 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650566712579, current=UP, previous=STARTING]
+2022-04-21 13:45:12.581  INFO 28288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 13:45:12.622  INFO 28288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 13:45:13.009  INFO 28288 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-21 13:45:13.010  INFO 28288 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-04-21 13:45:13.392  INFO 28288 --- [main] b.g.s.a.BankingGatewayServiceApplication : Started BankingGatewayServiceApplication in 5.902 seconds (JVM running for 6.625)
+2022-04-21 13:46:23.081 ERROR 28288 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [36ae01e1-2]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 13:48:26.490 ERROR 28288 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [346c2277-5]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 13:50:12.143  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 13:55:12.145  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 13:56:00.674  WARN 28288 --- [reactor-http-nio-1] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: banking-customer-service
+2022-04-21 13:56:01.810  WARN 28288 --- [reactor-http-nio-1] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: banking-customer-service
+2022-04-21 13:57:09.529 ERROR 28288 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [346c2277-9]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 13:58:10.900 ERROR 28288 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [346c2277-10]  500 Server Error for HTTP GET "/customer/actuator"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer/actuator" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:00:12.148  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:00:32.995 ERROR 28288 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [346c2277-12]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:05:12.155  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:10:12.165  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:15:12.173  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:20:12.180  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:25:12.187  INFO 28288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:25:52.122  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-21 14:25:52.123  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application BANKING-GATEWAY-SERVICE with eureka with status DOWN
+2022-04-21 14:25:52.123  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650569152123, current=DOWN, previous=UP]
+2022-04-21 14:25:52.123  INFO 28288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 14:25:52.146  INFO 28288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 14:25:54.198  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-21 14:25:57.211  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-21 14:26:01.266  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8091/eureka/} exception=I/O error on DELETE request for "http://localhost:8091/eureka/apps/BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080": Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8091/eureka/apps/BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080": Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:147)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor55.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 75 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 88 more
+
+2022-04-21 14:26:01.267  WARN 28288 --- [RMI TCP Connection(50)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8091/eureka/apps/BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080": Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-21 14:26:05.345  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8091/eureka/}, exception=I/O error on DELETE request for "http://localhost:8091/eureka/apps/BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080": Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8091/eureka/apps/BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080": Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:147)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor55.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 76 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 89 more
+
+2022-04-21 14:26:05.346  WARN 28288 --- [RMI TCP Connection(50)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8091/eureka/apps/BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080": Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8091 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-21 14:26:05.348 ERROR 28288 --- [RMI TCP Connection(50)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) [eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) [eureka-client-1.10.17.jar:1.10.17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_311]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_311]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_311]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) [spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) [spring-cloud-context-3.1.1.jar:3.1.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154) [spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) [spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) [spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:147) [spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) [spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) [spring-boot-2.6.7.jar:2.6.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_311]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_311]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_311]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) [na:1.8.0_311]
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_311]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) [na:1.8.0_311]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819) [na:1.8.0_311]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) [na:1.8.0_311]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468) [na:1.8.0_311]
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76) [na:1.8.0_311]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309) [na:1.8.0_311]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401) [na:1.8.0_311]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) [na:1.8.0_311]
+	at sun.reflect.GeneratedMethodAccessor55.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_311]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357) [na:1.8.0_311]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) [na:1.8.0_311]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) [na:1.8.0_311]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_311]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) [na:1.8.0_311]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573) [na:1.8.0_311]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834) [na:1.8.0_311]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688) [na:1.8.0_311]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_311]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687) [na:1.8.0_311]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_311]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_311]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:26:05.357  INFO 28288 --- [RMI TCP Connection(50)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-21 14:26:09.286  INFO 12876 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8090
+2022-04-21 14:26:11.168  INFO 12876 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=banking-gateway-service, profiles=[default], label=null, version=71c8c16ab0546da5137c99c0fd7bcae47b1bd03d, state=null
+2022-04-21 14:26:11.170  INFO 12876 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/JorgeEspinozaC2K/banking-config-data.git/file:C:\Users\jespcana\AppData\Local\Temp\config-repo-5124554328725180188\banking-gateway-service.yml'}]
+2022-04-21 14:26:11.193  INFO 12876 --- [main] b.g.s.a.BankingGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 14:26:11.761  INFO 12876 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2500d6d4-a6aa-3280-bdb7-f100beccd928
+2022-04-21 14:26:11.815  INFO 12876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 14:26:11.816  INFO 12876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 14:26:11.818  INFO 12876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 14:26:12.923  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-04-21 14:26:12.923  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-04-21 14:26:12.923  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-04-21 14:26:12.924  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-04-21 14:26:12.925  INFO 12876 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-21 14:26:13.145  INFO 12876 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-21 14:26:13.423  WARN 12876 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-21 14:26:13.487  INFO 12876 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-21 14:26:13.524  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-21 14:26:13.529  INFO 12876 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:26:13.553  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 14:26:13.553  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 14:26:13.553  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 14:26:13.553  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 14:26:13.553  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 14:26:13.554  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-21 14:26:13.554  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 14:26:13.974  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 14:26:13.976  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-21 14:26:13.979  INFO 12876 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-21 14:26:13.983  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650569173983 with initial instances count: 1
+2022-04-21 14:26:13.985  INFO 12876 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKING-GATEWAY-SERVICE with eureka with status UP
+2022-04-21 14:26:13.987  INFO 12876 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650569173987, current=UP, previous=STARTING]
+2022-04-21 14:26:13.990  INFO 12876 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 14:26:14.070  INFO 12876 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 14:26:14.461  INFO 12876 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-21 14:26:14.462  INFO 12876 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-04-21 14:26:14.867  INFO 12876 --- [main] b.g.s.a.BankingGatewayServiceApplication : Started BankingGatewayServiceApplication in 7.156 seconds (JVM running for 8.066)
+2022-04-21 14:31:13.562  INFO 12876 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:35:44.477  INFO 12876 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - Re-registering apps/BANKING-GATEWAY-SERVICE
+2022-04-21 14:35:44.477  INFO 12876 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 14:35:44.482  INFO 12876 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 14:36:13.564  INFO 12876 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:40:46.762 ERROR 12876 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [6dd6ace6-1]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:41:13.567  INFO 12876 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:46:12.222 ERROR 12876 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [6dd6ace6-4]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:46:13.571  INFO 12876 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:46:58.530 ERROR 12876 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [6dd6ace6-5]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:51:13.574  INFO 12876 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:51:15.642  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-21 14:51:15.643  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application BANKING-GATEWAY-SERVICE with eureka with status DOWN
+2022-04-21 14:51:15.643  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650570675643, current=DOWN, previous=UP]
+2022-04-21 14:51:15.644  INFO 12876 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 14:51:15.648  INFO 12876 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 14:51:20.716  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-21 14:51:23.724  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-21 14:51:23.739  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - deregister  status: 200
+2022-04-21 14:51:23.743  INFO 12876 --- [RMI TCP Connection(33)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-21 14:51:27.126  INFO 18548 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8090
+2022-04-21 14:51:28.597  INFO 18548 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=banking-gateway-service, profiles=[default], label=null, version=14c52eba84a0fc34fbe8b2065b5ea0bffb6e1897, state=null
+2022-04-21 14:51:28.598  INFO 18548 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/JorgeEspinozaC2K/banking-config-data.git/file:C:\Users\jespcana\AppData\Local\Temp\config-repo-5124554328725180188\banking-gateway-service.yml'}]
+2022-04-21 14:51:28.618  INFO 18548 --- [main] b.g.s.a.BankingGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 14:51:29.205  INFO 18548 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2500d6d4-a6aa-3280-bdb7-f100beccd928
+2022-04-21 14:51:29.258  INFO 18548 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 14:51:29.259  INFO 18548 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 14:51:29.260  INFO 18548 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 14:51:30.379  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-04-21 14:51:30.380  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-04-21 14:51:30.380  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-04-21 14:51:30.380  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-04-21 14:51:30.380  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-04-21 14:51:30.381  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-04-21 14:51:30.381  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-04-21 14:51:30.381  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-04-21 14:51:30.381  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-04-21 14:51:30.381  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-04-21 14:51:30.381  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-21 14:51:30.382  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-04-21 14:51:30.382  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-04-21 14:51:30.382  INFO 18548 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-21 14:51:30.590  INFO 18548 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-21 14:51:30.878  WARN 18548 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-21 14:51:30.951  INFO 18548 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-21 14:51:30.988  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-21 14:51:30.995  INFO 18548 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-21 14:51:31.024  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 14:51:31.434  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 14:51:31.436  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-21 14:51:31.439  INFO 18548 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-21 14:51:31.443  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650570691442 with initial instances count: 3
+2022-04-21 14:51:31.444  INFO 18548 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKING-GATEWAY-SERVICE with eureka with status UP
+2022-04-21 14:51:31.445  INFO 18548 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650570691445, current=UP, previous=STARTING]
+2022-04-21 14:51:31.447  INFO 18548 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 14:51:31.503  INFO 18548 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 14:51:31.926  INFO 18548 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-21 14:51:31.928  INFO 18548 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-04-21 14:51:32.445  INFO 18548 --- [main] b.g.s.a.BankingGatewayServiceApplication : Started BankingGatewayServiceApplication in 6.616 seconds (JVM running for 7.322)
+2022-04-21 14:53:26.607 ERROR 18548 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [94dda5cb-1]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:56:31.027  INFO 18548 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 14:56:32.522 ERROR 18548 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [94dda5cb-2]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 14:58:23.998  WARN 18548 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: banking-customer-service
+2022-04-21 14:58:25.104  WARN 18548 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: banking-customer-service
+2022-04-21 14:58:25.941  WARN 18548 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: banking-customer-service
+2022-04-21 14:59:18.147 ERROR 18548 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [94dda5cb-6]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 15:01:31.040  INFO 18548 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:03:53.044 ERROR 18548 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [94dda5cb-8]  500 Server Error for HTTP GET "/customer"
+
+io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'LIM-6YYN4M3.usersad.everis.int' and search domain query for configured domains failed as well: [usersad.everis.int]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/customer" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1047) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1000) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:418) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.onResponse(DnsResolveContext.java:629) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$400(DnsResolveContext.java:66) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:462) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104) [netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.trySuccess(DnsQueryContext.java:216) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finish(DnsQueryContext.java:208) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler.channelRead(DnsNameResolver.java:1314) ~[netty-resolver-dns-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:97) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+		at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 15:06:31.045  INFO 18548 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:06:42.648  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-21 15:06:42.650  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application BANKING-GATEWAY-SERVICE with eureka with status DOWN
+2022-04-21 15:06:42.650  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650571602650, current=DOWN, previous=UP]
+2022-04-21 15:06:42.650  INFO 18548 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 15:06:42.666  INFO 18548 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 15:06:47.739  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-21 15:06:50.746  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-21 15:06:50.762  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - deregister  status: 200
+2022-04-21 15:06:50.767  INFO 18548 --- [RMI TCP Connection(23)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-21 15:06:54.472  INFO 22032 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8090
+2022-04-21 15:06:58.697  INFO 22032 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=banking-gateway-service, profiles=[default], label=null, version=34410e533814d81115b2f533b3977751dddead80, state=null
+2022-04-21 15:06:58.699  INFO 22032 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/JorgeEspinozaC2K/banking-config-data.git/file:C:\Users\jespcana\AppData\Local\Temp\config-repo-1792141933281478208\banking-gateway-service.yml'}]
+2022-04-21 15:06:58.712  INFO 22032 --- [main] b.g.s.a.BankingGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 15:06:59.238  INFO 22032 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2500d6d4-a6aa-3280-bdb7-f100beccd928
+2022-04-21 15:06:59.284  INFO 22032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 15:06:59.285  INFO 22032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 15:06:59.286  INFO 22032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-04-21 15:07:00.373  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-21 15:07:00.374  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-04-21 15:07:00.374  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-04-21 15:07:00.374  INFO 22032 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-21 15:07:00.559  INFO 22032 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-21 15:07:00.838  WARN 22032 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-21 15:07:00.895  INFO 22032 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-21 15:07:00.929  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-21 15:07:00.936  INFO 22032 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-21 15:07:00.958  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 15:07:01.372  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 15:07:01.375  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-21 15:07:01.378  INFO 22032 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-21 15:07:01.383  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650571621383 with initial instances count: 3
+2022-04-21 15:07:01.384  INFO 22032 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKING-GATEWAY-SERVICE with eureka with status UP
+2022-04-21 15:07:01.385  INFO 22032 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650571621385, current=UP, previous=STARTING]
+2022-04-21 15:07:01.387  INFO 22032 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 15:07:01.437  INFO 22032 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 15:07:01.867  INFO 22032 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-21 15:07:01.868  INFO 22032 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-04-21 15:07:02.291  INFO 22032 --- [main] b.g.s.a.BankingGatewayServiceApplication : Started BankingGatewayServiceApplication in 9.104 seconds (JVM running for 9.793)
+2022-04-21 15:12:00.963  INFO 22032 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:17:00.973  INFO 22032 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:22:00.988  INFO 22032 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:27:01.000  INFO 22032 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:32:01.003  INFO 22032 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:35:02.746  INFO 22032 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - Re-registering apps/BANKING-GATEWAY-SERVICE
+2022-04-21 15:35:02.746  INFO 22032 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 15:35:02.753  INFO 22032 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 15:37:01.006  INFO 22032 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:38:59.272  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-21 15:38:59.273  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application BANKING-GATEWAY-SERVICE with eureka with status DOWN
+2022-04-21 15:38:59.273  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650573539273, current=DOWN, previous=UP]
+2022-04-21 15:38:59.273  INFO 22032 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 15:38:59.292  INFO 22032 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 15:39:01.341  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-21 15:39:04.342  WARN 22032 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2022-04-21 15:39:04.343  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-21 15:39:04.346  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - deregister  status: 200
+2022-04-21 15:39:04.350  INFO 22032 --- [RMI TCP Connection(39)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-21 15:49:30.462  INFO 15980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-21 15:49:31.362  INFO 15980 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8090
+2022-04-21 15:49:32.739  INFO 15980 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=banking-gateway-service, profiles=[default], label=null, version=dbc5e4dddacfe1eaf3c70a49735fef5dad989f75, state=null
+2022-04-21 15:49:32.741  INFO 15980 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/JorgeEspinozaC2K/banking-config-data.git/file:C:\Users\jespcana\AppData\Local\Temp\config-repo-8153399672596870705\banking-gateway-service.yml'}]
+2022-04-21 15:49:32.767  INFO 15980 --- [restartedMain] b.g.s.a.BankingGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 15:49:33.616  INFO 15980 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=101dd5e6-4e6e-3a3f-849a-a43bfd9bff3b
+2022-04-21 15:49:33.682  INFO 15980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 15:49:33.684  INFO 15980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 15:49:33.686  INFO 15980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 15:49:35.189  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-04-21 15:49:35.190  INFO 15980 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-21 15:49:35.432  WARN 15980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-04-21 15:49:35.439  INFO 15980 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-21 15:49:35.738  WARN 15980 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-21 15:49:35.805  INFO 15980 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-21 15:49:35.845  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-21 15:49:35.851  INFO 15980 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:49:35.879  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 15:49:35.879  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 15:49:35.880  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 15:49:35.880  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 15:49:35.880  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 15:49:35.880  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-21 15:49:35.880  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 15:49:36.308  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 15:49:36.310  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-21 15:49:36.312  INFO 15980 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-21 15:49:36.316  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650574176315 with initial instances count: 0
+2022-04-21 15:49:36.317  INFO 15980 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKING-GATEWAY-SERVICE with eureka with status UP
+2022-04-21 15:49:36.318  INFO 15980 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650574176318, current=UP, previous=STARTING]
+2022-04-21 15:49:36.320  INFO 15980 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 15:49:36.363  INFO 15980 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 15:49:36.755  INFO 15980 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-21 15:49:36.756  INFO 15980 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-04-21 15:49:37.142  INFO 15980 --- [restartedMain] b.g.s.a.BankingGatewayServiceApplication : Started BankingGatewayServiceApplication in 7.824 seconds (JVM running for 9.211)
+2022-04-21 15:50:06.322  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 15:50:06.322  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 15:50:06.322  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 15:50:06.322  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 15:50:06.322  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 15:50:06.323  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-04-21 15:50:06.323  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 15:50:06.341  INFO 15980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 15:54:35.882  INFO 15980 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 15:59:35.887  INFO 15980 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:04:09.130  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-21 16:04:09.130  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application BANKING-GATEWAY-SERVICE with eureka with status DOWN
+2022-04-21 16:04:09.131  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650575049131, current=DOWN, previous=UP]
+2022-04-21 16:04:09.131  INFO 15980 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 16:04:09.149  INFO 15980 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 16:04:11.210  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-21 16:04:14.222  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-21 16:04:14.239  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - deregister  status: 200
+2022-04-21 16:04:14.244  INFO 15980 --- [RMI TCP Connection(24)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-21 16:04:16.531  INFO 8884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-21 16:04:17.073  INFO 8884 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8090
+2022-04-21 16:04:19.090  INFO 8884 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=banking-gateway-service, profiles=[default], label=null, version=63182ce5a448d9ccb7e809a3ddcf3052a7dd9f23, state=null
+2022-04-21 16:04:19.091  INFO 8884 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/JorgeEspinozaC2K/banking-config-data.git/file:C:\Users\jespcana\AppData\Local\Temp\config-repo-8153399672596870705\banking-gateway-service.yml'}]
+2022-04-21 16:04:19.103  INFO 8884 --- [restartedMain] b.g.s.a.BankingGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 16:04:19.650  INFO 8884 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=101dd5e6-4e6e-3a3f-849a-a43bfd9bff3b
+2022-04-21 16:04:19.697  INFO 8884 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:04:19.698  INFO 8884 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:04:19.700  INFO 8884 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:04:20.734  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-04-21 16:04:20.734  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-04-21 16:04:20.735  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-04-21 16:04:20.736  INFO 8884 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-04-21 16:04:20.934  WARN 8884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-04-21 16:04:20.940  INFO 8884 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-21 16:04:21.217  WARN 8884 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-21 16:04:21.274  INFO 8884 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-21 16:04:21.310  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-21 16:04:21.316  INFO 8884 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-21 16:04:21.341  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-21 16:04:21.721  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-21 16:04:21.724  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-21 16:04:21.727  INFO 8884 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-21 16:04:21.733  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650575061732 with initial instances count: 5
+2022-04-21 16:04:21.734  INFO 8884 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKING-GATEWAY-SERVICE with eureka with status UP
+2022-04-21 16:04:21.734  INFO 8884 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650575061734, current=UP, previous=STARTING]
+2022-04-21 16:04:21.736  INFO 8884 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080: registering service...
+2022-04-21 16:04:21.780  INFO 8884 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKING-GATEWAY-SERVICE/LIM-6YYN4M3.usersad.everis.int:banking-gateway-service:8080 - registration status: 204
+2022-04-21 16:04:22.165  INFO 8884 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-21 16:04:22.166  INFO 8884 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-04-21 16:04:22.563  INFO 8884 --- [restartedMain] b.g.s.a.BankingGatewayServiceApplication : Started BankingGatewayServiceApplication in 6.672 seconds (JVM running for 7.357)
+2022-04-21 16:07:56.431 ERROR 8884 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [cd3c3a69-5]  500 Server Error for HTTP GET "/card"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8085
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/card" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[na:1.8.0_311]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 16:07:59.643 ERROR 8884 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [cd3c3a69-6]  500 Server Error for HTTP GET "/card"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8085
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/card" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[na:1.8.0_311]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 16:08:56.172 ERROR 8884 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [cd3c3a69-13]  500 Server Error for HTTP GET "/payment"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8089
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/payment" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[na:1.8.0_311]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 16:08:59.275 ERROR 8884 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [cd3c3a69-14]  500 Server Error for HTTP GET "/payment"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8089
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/payment" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[na:1.8.0_311]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 16:09:21.350  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:14:21.373  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:19:21.383  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:24:21.389  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:29:21.391  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:34:21.393  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:37:45.857 ERROR 8884 --- [reactor-http-nio-3] a.w.r.e.AbstractErrorWebExceptionHandler : [cd3c3a69-34]  500 Server Error for HTTP GET "/transaction"
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8088
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/transaction" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[na:1.8.0_311]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.76.Final.jar:4.1.76.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_311]
+
+2022-04-21 16:39:21.403  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:44:21.413  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:49:21.415  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:54:21.429  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 16:59:21.443  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:04:21.450  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:09:21.454  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:14:21.467  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:19:21.477  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:24:21.490  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:29:21.499  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:34:21.511  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:39:21.523  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:44:21.528  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:49:21.542  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:54:21.547  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 17:59:21.553  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:04:21.558  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:09:21.572  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:14:21.588  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:19:21.589  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:24:21.600  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:29:21.603  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:34:21.609  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:39:21.613  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:44:21.618  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:49:21.623  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:54:21.633  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 18:59:21.636  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 19:04:21.649  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 19:09:21.661  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 19:14:21.666  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 22:38:45.046  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 22:43:45.053  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 22:48:45.068  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 22:53:45.083  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 22:58:45.099  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:03:45.108  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:08:45.117  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:13:45.120  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:18:45.123  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:23:45.125  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:28:45.133  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:33:45.145  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:38:45.153  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:43:45.156  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:48:45.169  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:53:45.170  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-21 23:58:45.177  INFO 8884 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
